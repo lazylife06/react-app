@@ -1,0 +1,32 @@
+.Title {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.product {
+    width: 150px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 1rem;
+    padding: 10px;
+    margin: 10px;
+    font-size: 15px;
+}
+
+span {
+    font-size: 70%;
+    opacity: 0.5;
+}
+
+.add {
+    font-size: 8px;
+    width: 35px;
+    height: 17px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+}
