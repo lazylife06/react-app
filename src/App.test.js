@@ -1,8 +1,11 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('renders learn react link', async () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  const btn = screen.getByRole('button');
+  const image = screen.getByRole('img');
+
+  expect(btn).toBeInTheDocument();
+  expect(image).toBeInTheDocument();
 });
