@@ -1,9 +1,21 @@
+.Content {
+    display: flex;
+    justify-content: center;
+}
+
 .Title {
     background-color: black;
     width: 100%;
     display: flex;
     padding: 20px;
     box-sizing: border-box;
+    justify-content: right;
+}
+
+.Shoppingbag {
+    border: none;
+    background-color: white;
+    border-radius: 1rem;
 }
 
 .product {
